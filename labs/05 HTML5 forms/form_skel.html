@@ -1,61 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 	<!--
 	This page demonstrates a form.
 	-->
 	<head>
 		<meta charset="utf-8"/>
 		<title>Demonstrating HTML forms</title>
+		<link href="css/form.css" type="text/css" rel="stylesheet" />
 	</head>
 	
 	<body>
 		<h1>Turnitin</h1>
-		<form  lang="fi" action="">
-			<div>
-				Name: <input type="text" name="studentname"/>
-			</div>
-			<div>
-				Student id: <input type="text" name="id"  />
-			</div>
-			<div>
-				Email:
-				<!--
-				Make an input named "email"
-				-->
-			</div>
-			<div>
-				Assignment:
-				<!--
-				Make an input named "assignment"
-				-->
-				
-			</div>
-
-			<div>
-				Code:
-				<!--
-				Make an input named "code" which is a text area to put student's code into.
-				-->
-				
-			</div>
-			<div>
-				Cheat:
-			<!--
-				Make an input named "cheat" which is a check box the student must check.
-			-->
-			</div>
-			<div>
-				Pay:
-			<!--
-				Make an input named "payment" which is a radio box with possible values of visa, paypal, mastercard
-			-->
-			</div>
-			<div>
-				Score:
-			<!--
-				Make an input named "score" which is a list of choices for the score 
-			-->
-			</div>
+		<form lang="es" action="">
+			<select name="example">
+				<option value="notknown">Not selected</option>
+				<option value="item1">Item 1</option>
+			</select>
+			<fieldset>
+				<legend>Basic information</legend>
+				<div>
+					Name: <input type="text" name="studentname" placeholder="Your full name"/>
+				</div>
+				<div>
+					Student id: <input type="text" name="id" pattern="\d{2}-\d{6}" placeholder="ID-number"/>
+				</div>
+				<div>
+					Email: <input type="text" name="email" pattern="[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Full email"/>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Secrets</legend>
+				<div>
+					Assignment: <input type="text" name="assignment" placeholder="Your current work"/>
+				</div>
+				<div>
+					Code: <input type="password" name="code" placeholder="Secret code"/>
+				</div>
+				<div>
+					<label>Cheat: <input type="checkbox" name="cheat"/></label>
+				</div>
+				<div>
+					Pay: <input type="number" name="pay" placeholder="In euros"/>
+				</div>
+				<div>
+					Score: <input type="text" name="score" pattern="\d{1,}" placeholder="Your total score"/>
+				</div>
+			</fieldset>
+				<fieldset>
+					<legend>What do you have</legend>
+					<input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+					<input type="checkbox" name="vehicle" value="Car">I have a car<br>
+					<label><input type="checkbox" name="vehicle" value="Boat">I have a boat</label><br>
+					<label><input type="checkbox" name="vehicle" value="House">I have a house</label>
+				</fieldset>
+				<fieldset>
+					<legend>Credit Card</legend>
+					<label><input type="radio" name="card" value="Visa">Visa</label><br>
+					<label><input type="radio" name="card" value="MCard">MasterCard </label>
+				</fieldset>
 			<input type="submit" />
 		</form>
 		<a href="http://jigsaw.w3.org/css-validator/check/referer">Validate</a>

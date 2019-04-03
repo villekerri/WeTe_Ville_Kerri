@@ -2,14 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23283871-8057-486b-aae0-29ba34945bfd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/labs/03 HTML5/css/compcss.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/simple.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labs/03 HTML5/css/johndoe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/berriespage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/berriescss.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/boxstyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/columnstyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labs/05 HTML5 forms/aSampleForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labs/05 HTML5 forms/css/form.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/labs/03 HTML5/comparison.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/03 HTML5/comparison.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/selectors.css" beforeDir="false" afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/selectors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/csstest.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/csstest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/selectors.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/selectors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/03 HTML5/css/compcss.css" beforeDir="false" afterPath="$PROJECT_DIR$/labs/03 HTML5/css/compcss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/03 HTML5/johndoe.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/03 HTML5/johndoe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/boxmodel.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/boxmodel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/columns.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/columns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/floatstyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/floatstyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/simple.css" beforeDir="false" afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/simple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/floating.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/floating.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/05 HTML5 forms/form_skel.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/05 HTML5 forms/form_skel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/06 JavaScript Tools/basic_math.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/06 JavaScript Tools/basic_math.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,66 +44,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/worksheet.md">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/labs/05 HTML5 forms/worksheet.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SECOND">
-              <first_editor>
-                <folding>
-                  <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-                </folding>
-              </first_editor>
+              <first_editor />
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/labs/03 HTML5/comparison.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/labs/05 HTML5 forms/form_skel.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="634">
+              <caret line="45" column="72" selection-start-line="45" selection-start-column="72" selection-end-line="45" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/labs/05 HTML5 forms/css/form.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/labs/05 HTML5 forms/aSampleForm.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/floating.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labs/03 HTML5/css/compcss.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/selectors.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/selectors.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/csstest.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" column="125" selection-start-line="53" selection-start-column="125" selection-end-line="53" selection-end-column="125" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/simple.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -115,14 +108,31 @@
       <list>
         <option value="$PROJECT_DIR$/labs/03 HTML5/computers80.html" />
         <option value="$PROJECT_DIR$/labs/03 HTML5/commodore64.html" />
-        <option value="$PROJECT_DIR$/labs/03 HTML5/johndoe.html" />
         <option value="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/simple.css" />
         <option value="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/selectors.css" />
         <option value="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/selectors.html" />
         <option value="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/csstest.html" />
-        <option value="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/simple.css" />
-        <option value="$PROJECT_DIR$/labs/03 HTML5/css/compcss.css" />
+        <option value="$PROJECT_DIR$/labs/06 JavaScript Tools/basic_math.html" />
         <option value="$PROJECT_DIR$/labs/03 HTML5/comparison.html" />
+        <option value="$PROJECT_DIR$/labs/03 HTML5/css/compcss.css" />
+        <option value="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/berrieshtml.html" />
+        <option value="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/berriespagel.html" />
+        <option value="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/boxmodel.html" />
+        <option value="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/boxstyles.css" />
+        <option value="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/berriespage.html" />
+        <option value="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/berriescss.css" />
+        <option value="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/simple.css" />
+        <option value="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/floating.html" />
+        <option value="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/floatstyles.css" />
+        <option value="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/columnstyles.css" />
+        <option value="$PROJECT_DIR$/labs/03 HTML5/johndoe.html" />
+        <option value="$PROJECT_DIR$/labs/03 HTML5/css/johndoe.css" />
+        <option value="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/columns.html" />
+        <option value="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/game.html" />
+        <option value="$PROJECT_DIR$/labs/05 HTML5 forms/aSampleForm.html" />
+        <option value="$PROJECT_DIR$/labs/05 HTML5 forms/css/formcss.css" />
+        <option value="$PROJECT_DIR$/labs/05 HTML5 forms/css/form.css" />
+        <option value="$PROJECT_DIR$/labs/05 HTML5 forms/form_skel.html" />
       </list>
     </option>
   </component>
@@ -155,44 +165,6 @@
             </path>
             <path>
               <item name="kurssimateriaali" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kurssimateriaali" type="462c0819:PsiDirectoryNode" />
-              <item name="labs" type="462c0819:PsiDirectoryNode" />
-              <item name="01 Introduction to Git" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kurssimateriaali" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kurssimateriaali" type="462c0819:PsiDirectoryNode" />
-              <item name="labs" type="462c0819:PsiDirectoryNode" />
-              <item name="02 Git Remotes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kurssimateriaali" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kurssimateriaali" type="462c0819:PsiDirectoryNode" />
-              <item name="labs" type="462c0819:PsiDirectoryNode" />
-              <item name="03 HTML5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kurssimateriaali" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kurssimateriaali" type="462c0819:PsiDirectoryNode" />
-              <item name="labs" type="462c0819:PsiDirectoryNode" />
-              <item name="04 CSS3 and Bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kurssimateriaali" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kurssimateriaali" type="462c0819:PsiDirectoryNode" />
-              <item name="labs" type="462c0819:PsiDirectoryNode" />
-              <item name="04 CSS3 and Bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kurssimateriaali" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kurssimateriaali" type="462c0819:PsiDirectoryNode" />
-              <item name="labs" type="462c0819:PsiDirectoryNode" />
-              <item name="04 CSS3 and Bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kurssimateriaali" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
             </path>
           </expand>
@@ -212,12 +184,12 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ville\PhpstormProjects\kurssimateriaali\labs\03 HTML5" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ville\PhpstormProjects\kurssimateriaali\labs\04 CSS3 and Bootstrap\css" />
       <recent name="C:\Users\ville\PhpstormProjects\kurssimateriaali\labs\03 HTML5\img" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ville\PhpstormProjects\kurssimateriaali\labs\03 HTML5" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -250,18 +222,23 @@
       <workItem from="1553085752320" duration="39000" />
       <workItem from="1553165381601" duration="3309000" />
       <workItem from="1553168968613" duration="4203000" />
-      <workItem from="1553238299046" duration="7406000" />
+      <workItem from="1553238299046" duration="7582000" />
+      <workItem from="1553511906978" duration="136000" />
+      <workItem from="1553683061003" duration="3733000" />
+      <workItem from="1554064622600" duration="10099000" />
+      <workItem from="1554227166357" duration="430000" />
+      <workItem from="1554229463921" duration="2100000" />
+      <workItem from="1554232289901" duration="6733000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20716000" />
+    <option name="totallyTimeSpent" value="44123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15191898" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16151386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -338,14 +315,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/03 HTML5/johndoe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="85" column="37" selection-start-line="85" selection-start-column="37" selection-end-line="85" selection-end-column="37" />
+    <entry file="file://$PROJECT_DIR$/labs/03 HTML5/worksheet.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/03 HTML5/worksheet.md">
+    <entry file="file://$PROJECT_DIR$/labs/03 HTML5/computers80.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/img/computer.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/img/comparison.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/06 JavaScript Tools/worksheet.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
           <first_editor />
@@ -369,23 +360,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/03 HTML5/computers80.html">
+    <entry file="file://$PROJECT_DIR$/labs/06 JavaScript Tools/js/shopping.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        <state relative-caret-position="238">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/boxmodel.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/img/computer.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/selectors.html">
+    <entry file="file://$PROJECT_DIR$/labs/06 JavaScript Tools/basic_math.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="289">
+          <caret line="17" column="77" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -396,25 +384,123 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/selectors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/targets.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/03 HTML5/comparison.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/03 HTML5/css/compcss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/boxstyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/berriespage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/csstest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="125" selection-start-line="53" selection-start-column="125" selection-end-line="53" selection-end-column="125" />
+        <state relative-caret-position="-51">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/simple.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="753">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/03 HTML5/css/compcss.css">
+    <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/boxmodel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/columnstyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/03 HTML5/johndoe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/03 HTML5/css/johndoe.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/columns.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/menustyles.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/img/comparison.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/floatstyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/game.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/berriescss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/worksheet.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -428,10 +514,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/03 HTML5/comparison.html">
+    <entry file="file://$PROJECT_DIR$/labs/05 HTML5 forms/aSampleForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/floating.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/05 HTML5 forms/css/form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/05 HTML5 forms/form_skel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="45" column="72" selection-start-line="45" selection-start-column="72" selection-end-line="45" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/05 HTML5 forms/worksheet.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,11 @@
+.twocolumns {
+    -webkit-columns: 100px 2; /* Chrome, Safari, Opera */
+    -moz-columns: 100px 2; /* Firefox */
+    columns: 100px 2;
+}
+
+.threecolumns {
+    -webkit-columns: 50px 3; /* Chrome, Safari, Opera */
+    -moz-columns: 50px 3; /* Firefox */
+    columns: 50px 3;
+}

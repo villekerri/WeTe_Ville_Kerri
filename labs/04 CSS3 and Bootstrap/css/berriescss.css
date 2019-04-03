@@ -1,0 +1,56 @@
+body {
+    font-family: Arial;
+}
+figure {
+    width: 250px;
+    padding-left: 80px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+}
+img {
+    height: 200px;
+    width: auto;
+}
+h1 {
+    font-weight: lighter;
+    font-size: 100px;
+    padding-left: 80px;
+    margin: auto;
+}
+p{
+    font-size: 16px;
+    text-align: center;
+}
+p.blueberry {
+    background-color: lightblue;
+    border-top: 1px solid black;
+    padding: 1em;
+    width:250px;
+    margin-bottom: 0em;
+    margin-left: 100px;;
+}
+p.cloudberry {
+    background-color: lightyellow;
+    border-top: 1px solid black;
+    padding: 1em;
+    width:250px;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 100px;;
+}
+p.lingonberry {
+    background-color: salmon;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 1em;
+    width:250px;
+    margin-top: 0em;
+    margin-left: 100px;;
+}
+latina {
+    font-style: italic;
+}
+nimi {
+    font-size: 34px;
+}
