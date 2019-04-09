@@ -38,6 +38,35 @@ function addTask() {
     
 } // End of addTask() function.
 
+function removeDuplicate() {
+    'use strict';
+
+    // Reference to where the output goes:
+    var output = document.getElementById('output');
+
+    // For the output:
+    var message = '';
+    if (tasks.length>0){
+
+        for ( var i = 0; i < tasks.length; i++) {
+            for ( var j = i+1; j < tasks.length; j++) {
+                if (tasks[i]==tasks[j]) {
+                    tasks.splice(j, 1);
+                    j = j-1;
+                }
+            }
+        }
+
+        // Update the page:
+        message = '<h2>To-Do</h2><ol>';
+        for (var i = 0, count = tasks.length; i < count; i++) {
+            message += '<li>' + tasks[i] + '</li>';
+        }
+        message += '</ol>';
+        output.innerHTML = message;
+    }
+}
+
 // Initial setup:
 function init() {
     'use strict';
