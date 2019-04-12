@@ -16,7 +16,19 @@ window.onload = function() {
 	} else if (div.attachEvent) {
 		div.attachEvent("click", handleClick);
 	}
+
 };
+
+function mouseOver(para1) {
+  document.getElementById(para1).style.color = "red";
+  var x = para1;
+  document.getElementById("mita").innerHTML = x;
+}
+
+function mouseOut(para2) {
+  document.getElementById(para2).style.color = "black";
+  document.getElementById("mita").innerHTML = "";
+}
 
 function handleClick(e) {
 	var evt = e || window.event;
@@ -33,5 +45,12 @@ function handleClick(e) {
 </head>
 <body>
 <span id="clickme">Click me!</span>
+<div class="testi" id="hover1" onmouseover="mouseOver(this.id)" onmouseout="mouseOut(this.id)">
+  <p>Try hovering over me.</p>
+</div>
+<div class="testi" id="hover2" onmouseover="mouseOver(this.id)" onmouseout="mouseOut(this.id)">
+  <p>Or hover over me.</p>
+</div>
+<p id="mita"></p>
 </body>
 </html>

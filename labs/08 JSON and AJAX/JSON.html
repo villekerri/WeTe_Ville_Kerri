@@ -3,7 +3,30 @@
 <head>
   <meta charset="utf-8">
   <title> JSON </title>
+<body>
+<div id="json"></div>
+<div id="tostring"></div>
+<div id="toobject"></div>
+<div id="backtostring"></div>
+</body>
   <script>
+
+    var newObject = {
+      name: { first: "Eero",
+        second: "Esimerkki" },
+      title: "Asiantuntija"
+    }
+    document.getElementById("json").innerHTML = newObject.name.first;
+
+    var myString = JSON.stringify(newObject);
+    document.getElementById("tostring").innerHTML = myString;
+
+    var myObject = JSON.parse(myString);
+    var firstName = myObject.name.first;
+    document.getElementById("toobject").innerHTML = firstName;
+
+    var newString = JSON.stringify(firstName);
+    document.getElementById("backtostring").innerHTML = newString;
 
 var fidoString = '{ "name": "Fido", "breed": "Mixed", "weight": 38 }';
 var fido = JSON.parse(fidoString);
@@ -20,6 +43,5 @@ console.log("We made a string from a dog! " + fidoString);
 
   </script>
 </head>
-<body>
-</body>
+
 </html>

@@ -10,13 +10,32 @@
     Make a request
   </span>
 
+  <div>
+      <input type="text" id="osoite" name="url"/>
+      <button id="urlbutton" onclick="ajaxUrl()">Testi</button>
+      <p id="demo"></p>
+  </div>
 
   <script type="text/javascript">
+      function ajaxUrl() {
+          var urlosoite = document.getElementById("osoite").value;
+
+          var check = new XMLHttpRequest;
+          check.open("GET", urlosoite, true);
+          check.send();
+          check.onreadystatechange = function(){
+              if(check.readyState == 4 && check.readyState == 200){
+                  document.getElementById("demo").innerHTML = check.responseText;
+              } else {
+                  document.getElementById("demo").innerHTML = check.responseText;
+              }
+          }
+      }
   (function() {
     var httpRequest;
-    var testUrl = 'data/story.json';
+      var testUrl = 'data/story.json';
     // Use Github Gist when no web server is available
-    // var testUrl = 'https://gist.githubusercontent.com/c0lin/571d38b984d41b44aacf/raw/story.json';
+      // var testUrl = 'https://gist.githubusercontent.com/c0lin/571d38b984d41b44aacf/raw/story.json';
     document.getElementById("ajaxButton").onclick = function() { makeRequest(testUrl); };
 
     function makeRequest(url) {

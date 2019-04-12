@@ -9,6 +9,8 @@
     <button id="hi">Hello Once</button>
     <button id="write">Write Something</button>
 	<p id="output">Click button 3 to set this text.</p>
+    <button id="ulist">List</button>
+    <button id="flist">Fill the list</button>
     <script src="js/dom_utils.js"></script>
     <script>
         // here we will use the 'U' object defined in the utils script file
@@ -31,6 +33,28 @@
         U.addEvent(writeText, 'click', function() {
             U.setText('output', "Writing some new text for you.");
         });
+
+        var listOnce = U.$('ulist');
+        var createOnce = function(){
+            var newList = document.createElement("UL");
+            newList.setAttribute('id', 'nlist');
+            newList.innerHTML = "New list: ";
+            document.body.appendChild(newList);
+            U.removeEvent(listOnce, 'click', createOnce);
+        };
+        U.addEvent(listOnce, 'click', createOnce);
+
+        var numbers = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"];
+        var fillOnce = U.$('flist');
+        var fillerOnce = function(){
+            for (var i = 0; i < numbers.length; i++){
+                var listFiller = document.createElement("LI");
+                listFiller.innerHTML = numbers[i];
+                document.getElementById("nlist").appendChild(listFiller);
+            }
+            U.removeEvent(fillOnce, 'click', fillerOnce);
+        };
+        U.addEvent(fillOnce, 'click', fillerOnce);
     </script>
 </body>
 </html>
