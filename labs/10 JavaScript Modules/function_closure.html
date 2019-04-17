@@ -42,11 +42,40 @@ window.onload = function() {
 	};
 };
 
+window.onload = function() {
+	var speed = 0;
+	var speedmessage = "The current playback speed is: ";
+	var divi = document.getElementById("playback-speed");
+	var plus = document.getElementById("plus");
+	plus.onclick = function () {
+		speed++;
+		divi.innerHTML = speedmessage + speed;
+	}
+	var reset = document.getElementById("reset");
+	reset.onclick = function () {
+		speed = 0;
+		divi.innerHTML = speedmessage + speed;
+	}
+	var minus = document.getElementById("minus");
+	minus.onclick = function () {
+		speed--;
+		divi.innerHTML = speedmessage + speed;
+	}
+	var buttonit = document.getElementsByClassName("speedbutton");
+	buttonit.onclick = function () {
+		console.log("asd");
+	}
+}
+
 </script> 
 </head> 
 <body>
 	<button id="clickme">Click me!</button>
 	<div id="message"></div>
+	<button id="minus" class="speedbutton">-</button>
+	<button id="reset" class="speedbutton">0</button>
+	<button id="plus" class="speedbutton">+</button>
+	<div id="playback-speed"></div>
 </body>
 </html>
 
