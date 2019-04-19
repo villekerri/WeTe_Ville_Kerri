@@ -33,8 +33,8 @@ $a[] = "Vihtori";
 
 // get the q parameter from URL
 $q = $_REQUEST["q"];
-
 $hint = "";
+$hintarray = array();
 
 // lookup all hints from array if $q is different from "" 
 if ($q !== "") {
@@ -47,10 +47,13 @@ if ($q !== "") {
             } else {
                 $hint .= ", $name";
             }
+            array_push($hintarray, $name);
+
         }
     }
 }
-
+$hintJSON = json_encode($hintarray);
+echo $hintJSON;
 // Output "no suggestion" if no hint was found or output correct values 
-echo $hint === "" ? "no suggestion" : $hint;
+//echo $hint === "" ? "no suggestion" : $hint;
 ?>
