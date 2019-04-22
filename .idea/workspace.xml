@@ -37,20 +37,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/labs/14 Modular PHP/diceclasses.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            <state relative-caret-position="770">
+              <caret line="60" column="62" selection-start-line="60" selection-start-column="62" selection-end-line="60" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/labs/14 Modular PHP/diceplay.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="204">
+              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -121,8 +121,8 @@
         <option value="$PROJECT_DIR$/labs/12 Introduction to PHP/order.html" />
         <option value="$PROJECT_DIR$/labs/12 Introduction to PHP/suggestions.html" />
         <option value="$PROJECT_DIR$/labs/12 Introduction to PHP/php/gethint.php" />
-        <option value="$PROJECT_DIR$/labs/14 Modular PHP/diceclasses.inc.php" />
         <option value="$PROJECT_DIR$/labs/14 Modular PHP/diceplay.php" />
+        <option value="$PROJECT_DIR$/labs/14 Modular PHP/diceclasses.inc.php" />
       </list>
     </option>
   </component>
@@ -263,12 +263,12 @@
       <workItem from="1555606509232" duration="7472000" />
       <workItem from="1555686946936" duration="6862000" />
       <workItem from="1555940999635" duration="4625000" />
-      <workItem from="1555966334892" duration="1954000" />
+      <workItem from="1555966334892" duration="3325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142860000" />
+    <option name="totallyTimeSpent" value="144231000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -698,17 +698,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/14 Modular PHP/diceclasses.inc.php">
+    <entry file="file://$PROJECT_DIR$/labs/14 Modular PHP/diceplay.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        <state relative-caret-position="204">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/14 Modular PHP/diceplay.php">
+    <entry file="file://$PROJECT_DIR$/labs/14 Modular PHP/diceclasses.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        <state relative-caret-position="770">
+          <caret line="60" column="62" selection-start-line="60" selection-start-column="62" selection-end-line="60" selection-end-column="62" />
         </state>
       </provider>
     </entry>

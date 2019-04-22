@@ -43,6 +43,23 @@ class Dice {
         $average = $average / $throws;
         return $average;
     }
+
+    public function getMaterial(){
+        return "The dice is made out of plastic. ";
+    }
+}
+
+class PhysicalDice extends Dice {
+    private $material;
+
+    public function __construct($faces, $bias, $material) {
+        parent::__construct($faces, $bias);
+        $this->material = $material;
+    }
+
+    public function getMaterial(){
+        return "The dice is made out of " .$this->material. ".";
+    }
 }
 
 ?>
