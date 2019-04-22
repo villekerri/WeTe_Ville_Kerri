@@ -3,15 +3,27 @@
 class Dice {
     private $faces;
     private $freqs = array();
+    private $bias;
 
     // Constructor
-    public function __construct($faces) {
+    public function __construct($faces, $bias) {
         $this->faces = $faces;
+        $this->bias = $bias;
     }
-    
+
     public function cast() {
-        $res = rand(1,$this->faces);
-        $this->freqs[$res]++;
+        $check = rand(1,100);
+        $vastaus = $this->bias * 100;
+        if ($vastaus == 0){
+            $res = rand(1,($this->faces));
+            $this->freqs[$res]++;
+        } elseif ($check < $vastaus) {
+            $res = $this->faces;
+            $this->freqs[$res]++;
+        } else {
+            $res = rand(1,($this->faces-1));
+            $this->freqs[$res]++;
+        }
         return $res;
     }
     
