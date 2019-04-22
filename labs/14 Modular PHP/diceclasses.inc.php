@@ -1,9 +1,9 @@
 <?php
 
 class Dice {
-    private  $faces;
-    private  $freqs = array();
-    
+    private $faces;
+    private $freqs = array();
+
     // Constructor
     public function __construct($faces) {
         $this->faces = $faces;
@@ -20,6 +20,16 @@ class Dice {
         if ($freq=="")
             $freq = 0;
         return $freq;
+    }
+
+    public function average($eyes, $throws) {
+        $average = 0;
+        for($i = 1; $i<=$eyes; $i++){
+            $freq = $this->getFreq($i);
+            $average = $average + $freq * $i;
+        }
+        $average = $average / $throws;
+        return $average;
     }
 }
 

@@ -17,8 +17,8 @@ $freqs = array();
 for ($i = 1; $i<=$faces; $i++) {
     $freqs[] = array ('eyes' => strval($i), 'frequency' => strval($dice->getFreq($i)));
 }
-echo json_encode(array('faces'=>$faces,'results'=>$results,'frequencies'=>$freqs));
-
-
+echo json_encode(array('faces'=>$faces,'results'=>$results,'frequencies'=>$freqs,'average'=>$dice->average($faces, $throws)));
+echo "<br>";
+echo "Average: " .$dice->average($faces, $throws);
 
 ?>
