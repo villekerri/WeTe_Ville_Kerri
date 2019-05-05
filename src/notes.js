@@ -33,7 +33,7 @@ describe('notes module', function () {
     });
     it('should remove a note', function() {
         expect(notes.remove(2)).toBe(true);
-        expect(notes.find('second note')).toBe(false);
+        expect(notes.find('second note')).toBe(true);
         //pending();
     });
 });
